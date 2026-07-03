@@ -76,7 +76,7 @@ Based on [How Tailscale works](https://tailscale.com/blog/how-tailscale-works):
 
 Tailscale runs on your Mac. All mesh nodes appear in the **Devices** panel with green online status:
 
-![Tailscale Mac app — mesh devices list](tailscale-mac-devices.png)
+![Tailscale Mac app — mesh devices list](assets/tailscale-mac-devices.png)
 
 | Device | Tailscale IP | OS | Role |
 |--------|--------------|-----|------|
@@ -101,7 +101,7 @@ ssh root@100.122.84.2     # drop3 via Tailscale
 
 Manage the tailnet from [login.tailscale.com/admin/machines](https://login.tailscale.com/admin/machines):
 
-![Tailscale admin console in browser — Machines tab](tailscale-browser-ui.png)
+![Tailscale admin console in browser — Machines tab](assets/tailscale-browser-ui.png)
 
 The **Machines** tab shows all 4 connected nodes, Tailscale IPs, OS versions, and connection status. Use this for:
 
@@ -117,7 +117,7 @@ The **Machines** tab shows all 4 connected nodes, Tailscale IPs, OS versions, an
 
 Click any machine in the admin console to see full network details:
 
-![Tailscale machine details — ubuntu-s-drop1](tailscale-drop1-details.png)
+![Tailscale machine details — ubuntu-s-drop1](assets/tailscale-drop1-details.png)
 
 | Field | Value | DevOps meaning |
 |-------|-------|----------------|

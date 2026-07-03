@@ -63,7 +63,7 @@ Before editing the Caddyfile, confirm which interface is public and which is pri
 ifconfig
 ```
 
-![ifconfig output on loadbalance — eth0 public IP and eth1 private IP](loadbalancer-ifconfig.png)
+![ifconfig output on loadbalance — eth0 public IP and eth1 private IP](assets/loadbalancer-ifconfig.png)
 
 ### What you should see
 
@@ -102,7 +102,7 @@ cd /etc/caddy
 sudo nano Caddyfile
 ```
 
-![Editing Caddyfile in nano on loadbalance via Termius](loadbalancer-caddyfile.png)
+![Editing Caddyfile in nano on loadbalance via Termius](assets/loadbalancer-caddyfile.png)
 
 Paste this configuration (uses **private IPs**, not public):
 

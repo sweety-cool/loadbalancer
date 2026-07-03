@@ -10,7 +10,7 @@ See also: [Setup Guide](readme.md) · [VPC](vpc.md) · [Firewall](firewall.md) �
 
 After creating all servers, the DigitalOcean **Droplets** page shows every machine in one place:
 
-![DigitalOcean Droplets dashboard — all four VPS listed](digitalocean-droplets.png)
+![DigitalOcean Droplets dashboard — all four VPS listed](assets/digitalocean-droplets.png)
 
 ---
 

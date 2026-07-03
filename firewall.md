@@ -54,7 +54,7 @@ In a production-style setup, you never expose every server to the internet. You 
 
 ## Inbound rules
 
-![sweety-firewall inbound and outbound rules](firewall-rules.png)
+![sweety-firewall inbound and outbound rules](assets/firewall-rules.png)
 
 Inbound rules control **what traffic is allowed to reach** the backend droplets. Everything not listed is **denied by default**.
 
@@ -126,7 +126,7 @@ This follows the common pattern: **restrict inbound tightly, allow outbound for 
 
 ## Droplets protected by this firewall
 
-![sweety-firewall applied to 3 backend droplets](firewall-droplets.png)
+![sweety-firewall applied to 3 backend droplets](assets/firewall-droplets.png)
 
 The firewall is attached to **backend servers only** — not the load balancer:
 

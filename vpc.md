@@ -42,7 +42,7 @@ Think of it as a private LAN for your servers in the cloud.
 
 All four droplets live inside one VPC in the **NYC1** region:
 
-![DigitalOcean VPC dashboard — sweety-vpc with all droplets and private IPs](vpc-sweety-vpc.png)
+![DigitalOcean VPC dashboard — sweety-vpc with all droplets and private IPs](assets/vpc-sweety-vpc.png)
 
 | Setting | Value |
 |---------|-------|
