@@ -7,7 +7,8 @@ A step-by-step guide to building a self-hosted load balancer with health checks 
 **VPC:** [Private networking →](vpc.md)  
 **Firewall:** [Cloud firewall (DevOps) →](firewall.md)  
 **Tailscale:** [Mesh networking overlay →](tailscale.md)  
-**Load balancer:** [Dedicated LB droplet setup →](loadbalancer.md)
+**Load balancer:** [Dedicated LB droplet setup →](loadbalancer.md)  
+**DNS Load Balancing:** [DNS Redundancy & Load Balancing →](DNS-loadbalancing/readme.md)
 
 ---
 
@@ -184,6 +185,16 @@ Summary:
 
 ---
 
+## Step 4 — DNS Load Balancing & Redundancy
+
+Introduce a second load balancer for high availability (HA). Configure DNS Round-Robin A records to point `lb.klyrabit.com` to both load balancers so that if one goes down, the other continues serving requests.
+
+Full step-by-step guide with Caddy configuration, DNS records, and failover verification:
+
+**→ [DNS-loadbalancing/readme.md](DNS-loadbalancing/readme.md)**
+
+---
+
 ## Quick Reference — Commands per Backend Droplet
 
 | Step | Command |
@@ -206,6 +217,9 @@ Summary:
 - [ ] All backend droplets respond on port 80
 - [ ] Load balancer distributes traffic across backends
 - [ ] Health check removes unhealthy backends
+- [ ] DNS Load Balancing: Second LB (`lb-server-2`) created and configured
+- [ ] DNS Load Balancing: Round Robin DNS A records pointed to both LBs
+- [ ] DNS Load Balancing: Failover verification completed successfully
 
 ---
 
